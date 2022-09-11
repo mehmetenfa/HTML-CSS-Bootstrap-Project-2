@@ -16,3 +16,50 @@
     color: #fff;
     background-color: #dc3545;
 }
+
+span i {
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.team img {
+    width: 250px;
+    border: 10px solid #cccccc;
+}
+
+a.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+}
+
+.client img {
+    height: auto;
+    max-height: 50px;
+}
+
+.contact {
+    background-image: url(./img/map.jpeg);
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #eee;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    justify-content: center;
+    user-select: none;
+    border: 1px solid transparent;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
